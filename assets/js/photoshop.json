@@ -1,0 +1,91 @@
+{
+    "course": [
+        {
+            "video": "https://www.youtube.com/watch?v=ZIXM37H0mzs",
+            "day": "Day 01",
+            "title": "Introduction and Interface",
+            "description": "A small introduction on the interface of the photoshop application is discussed.",
+            "quiz": "https://google.com",
+            "type": "true"
+        },
+        {
+            "video": "https://youtube.com/",
+            "day": "Day 02",
+            "title": "Basic Tools",
+            "description": "",
+            "quiz": "https://google.com",
+            "type": "false"
+        },
+        {
+            "video": "https://youtube.com/",
+            "day": "Day 03",
+            "title": "Selection Tools",
+            "description": "",
+            "quiz": "https://google.com",
+            "type": "false"
+        },
+        {
+            "video": "https://youtube.com/",
+            "day": "Day 04",
+            "title": "Layers and Transform",
+            "description": "",
+            "quiz": "https://google.com",
+            "type": "false"
+        },
+        {
+            "video": "https://youtube.com/",
+            "day": "Day 05",
+            "title": "Brush and Smudge Tools",
+            "quiz": "https://google.com",
+            "description": "",
+            "type": "false"            
+        },
+        {
+            "video": "https://youtube.com/",
+            "day": "Day 06",
+            "title": "Filters",
+            "quiz": "https://google.com",
+            "description": "",
+            "type": "false"
+        },
+        {
+            "video": "https://youtube.com/",
+            "day": "Day 07",
+            "title": "Poster Design",
+            "quiz": "https://google.com",
+            "description": "",
+            "type": "false"
+        },
+        {
+            "video": "https://youtube.com/",
+            "day": "Day 08",
+            "quiz": "https://google.com",
+            "title": "Doubt Discussion",
+            "description": "",
+            "type": "false"
+        },
+        {
+            "video": "https://youtube.com/",
+            "day": "Day 09",
+            "quiz": "https://google.com",
+            "title": "What is C?",
+            "description": "",
+            "type": "false"
+        },
+        {
+            "video": "https://youtube.com/",
+            "day": "Day 10",
+            "quiz": "https://google.com",
+            "title": "2D Animation",
+            "description": "",
+            "type": "false"
+        },
+        {
+            "day": "Completion",            
+            "title": "Course Completion",
+            "description": "",
+            "quiz": "https://google.com",
+            "type": "false"
+        }                
+    ]
+}

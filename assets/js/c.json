@@ -1,0 +1,91 @@
+{
+    "course": [
+        {
+            "video": "https://www.youtube.com/watch?v=8PopR3x-VMY",
+            "day": "Day 01",
+            "title": "What is C?",
+            "description": "",
+            "quiz": "https://google.com",
+            "type": "true"
+        },
+        {
+            "video": "https://youtube.com/",
+            "day": "Day 02",
+            "title": "What is C?",
+            "description": "",
+            "quiz": "https://google.com",
+            "type": "false"
+        },
+        {
+            "video": "https://youtube.com/",
+            "day": "Day 03",
+            "title": "What is C?",
+            "description": "",
+            "quiz": "https://google.com",
+            "type": "false"
+        },
+        {
+            "video": "https://youtube.com/",
+            "day": "Day 04",
+            "title": "What is C?",
+            "description": "",
+            "quiz": "https://google.com",
+            "type": "false"
+        },
+        {
+            "video": "https://youtube.com/",
+            "day": "Day 05",
+            "title": "What is C?",
+            "quiz": "https://google.com",
+            "description": "",
+            "type": "false"            
+        },
+        {
+            "video": "https://youtube.com/",
+            "day": "Day 06",
+            "title": "What is C?",
+            "quiz": "https://google.com",
+            "description": "",
+            "type": "false"
+        },
+        {
+            "video": "https://youtube.com/",
+            "day": "Day 07",
+            "title": "What is C?",
+            "quiz": "https://google.com",
+            "description": "",
+            "type": "false"
+        },
+        {
+            "video": "https://youtube.com/",
+            "day": "Day 08",
+            "quiz": "https://google.com",
+            "title": "What is C?",
+            "description": "",
+            "type": "false"
+        },
+        {
+            "video": "https://youtube.com/",
+            "day": "Day 09",
+            "quiz": "https://google.com",
+            "title": "What is C?",
+            "description": "",
+            "type": "false"
+        },
+        {
+            "video": "https://youtube.com/",
+            "day": "Day 10",
+            "quiz": "https://google.com",
+            "title": "What is C?",
+            "description": "",
+            "type": "false"
+        },
+        {
+            "day": "Completion",            
+            "title": "Course Completion",
+            "description": "",
+            "quiz": "https://google.com",
+            "type": "false"
+        }                
+    ]
+}
