@@ -196,7 +196,29 @@
 
 
 
-
+@media only screen and (max-width: 600px) {
+ .bg-animate {
+  position: absolute;  
+  top: 35%;
+  left: 5%;
+  opacity: 0;
+ }
+ .bg-animate1 {
+  position: absolute;  
+  top: 0%;
+  right: 20%;
+ }
+ .bg-animate2{
+  position: absolute;  
+  top: 90%;
+  left: 10%;
+ }
+ .bg-animate3{
+  position: absolute;  
+  top: 90%;
+  right: 5%;
+ }
+}
 
 .bg-animate {
   position: absolute;  
