@@ -3,56 +3,56 @@
         {
             "video": "https://www.youtube.com/embed/4F2m91eKmts",
             "day": "Day 01",
-            "title": "What is C?",
-            "description": "",
+            "title": "Introduction to Programming",
+            "description": "Brief introduction to the programming concepts",
             "quiz": "https://google.com",
             "type": "true"
         },
         {
             "video": "https://youtube.com/",
             "day": "Day 02",
-            "title": "What is C?",
-            "description": "",
+            "title": "Set Up the environment for C",
+            "description": "setting up the development environment to write programs in C",
             "quiz": "https://google.com",
             "type": "false"
         },
         {
             "video": "https://youtube.com/",
             "day": "Day 03",
-            "title": "What is C?",
-            "description": "",
+            "title": "What is Tokens",
+            "description": "discussion on tokens in C programming language",
             "quiz": "https://google.com",
             "type": "false"
         },
         {
             "video": "https://youtube.com/",
             "day": "Day 04",
-            "title": "What is C?",
-            "description": "",
+            "title": "Input, Output, Flowchart and Algorithm",
+            "description": "will have a brief talk about inputs and outputs and about the flowcharts and alogrithms involved",
             "quiz": "https://google.com",
             "type": "false"
         },
         {
             "video": "https://youtube.com/",
             "day": "Day 05",
-            "title": "What is C?",
+            "title": "Flow Control",
             "quiz": "https://google.com",
-            "description": "",
+            "description": "Discussion on flow control",
             "type": "false"            
         },
         {
             "video": "https://youtube.com/",
             "day": "Day 06",
-            "title": "What is C?",
+            "title": "More about Flow Control",
             "quiz": "https://google.com",
-            "description": "",
+            "description": "lets have more though about flow control in C programming language",
             "type": "false"
         },
         {
             "video": "https://youtube.com/",
             "day": "Day 07",
-            "title": "What is C?",
-            "quiz": "https://google.com",
+            "title": "Introduction to function",
+            "quiz": "know about functions and some built-in methods in C",
             "description": "",
             "type": "false"
         },
@@ -60,24 +60,24 @@
             "video": "https://youtube.com/",
             "day": "Day 08",
             "quiz": "https://google.com",
-            "title": "What is C?",
-            "description": "",
+            "title": "User Defined Functinos",
+            "description": "session on how user defined functions work",
             "type": "false"
         },
         {
             "video": "https://youtube.com/",
             "day": "Day 09",
             "quiz": "https://google.com",
-            "title": "What is C?",
-            "description": "",
+            "title": "Arrays in C",
+            "description": "brief talk on array data structure in C",
             "type": "false"
         },
         {
             "video": "https://youtube.com/",
             "day": "Day 10",
             "quiz": "https://google.com",
-            "title": "What is C?",
-            "description": "",
+            "title": "Multi Dimensional Arrays",
+            "description": "At last lets see about the multi dimensional arrays in C",
             "type": "false"
         },
         {

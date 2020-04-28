@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>smveczilla - Courses | Department of Computer Science and Engineering</title>
+    <title>SMVEC ZILLA - Courses | Department of Computer Science and Engineering</title>
     <link rel="icon" type="image/png" sizes="3300x2550" href="assets/img/zillalogo-01.png">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -38,8 +38,8 @@
 
     <div id="course_pane" class="container" style="height:100%;width: 100%;">
 
-        <div class="row mt-4">
-            <div class="col-12 m-4">
+        <div class="row mt-4 mb-4">
+            <div class="col-12">
                 <h5 class="h4 mb-1 font-weight-light" id="course_name"></h5>
                 <p style="font-size: 0.8em;" class="font-weight-light">course by smveczilla</p>
                 <div class="buttons mt-3"><a class="btn btn-secondary btn-sm" role="button" data-toggle="modal" data-target="#authorModal" style="cursor:pointer;background-color: #f0174b;color: rgb(255,255,255);font-family: Baloo, cursive;border: none;">View Author</a></div>
@@ -125,7 +125,9 @@
                                 <div class="card-body bg-dark">
                                 <p class="h5 font-weight-light m-2">${val.title}</p>
                                 <p class="font-weight-light m-1">${val.description}</p>
-                                <iframe width="500" height="300" src="${val.video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div class="embed-responsive embed-responsive-4by3">
+                                    <iframe class="embed-responsive-item" src="${val.video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
                                 <div class="buttons mt-3"><a class="btn btn-secondary btn-sm" role="button" href="${val.quiz}" style="cursor:pointer;background-color: #f0174b;color: rgb(255,255,255);font-family: Baloo, cursive;border: none;">Attend Quiz</a></div>
                                 </div>
                             </div>
@@ -189,7 +191,9 @@
                                 <div class="card-body bg-dark">
                                 <p class="h5 font-weight-light m-2">${val.title}</p>
                                 <p class="font-weight-light m-1">${val.description}</p>
-                                <iframe width="500" height="300" src="${val.video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div class="embed-responsive embed-responsive-4by3">
+                                    <iframe class="embed-responsive-item" src="${val.video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
                                 <div class="buttons mt-3"><a class="btn btn-secondary btn-sm" role="button" href="${val.quiz}" style="cursor:pointer;background-color: #f0174b;color: rgb(255,255,255);font-family: Baloo, cursive;border: none;">Attend Quiz</a></div>
                                 </div>
                             </div>
@@ -219,7 +223,8 @@
                 $('#accordionExample').append(output);
 
             });
-        } else if(course === 'photoshop') {
+        } 
+        else if(course === 'photoshop') {
             $('#course_name').html('Photoshop Get Through');
             $('#author_content').append(`<div style="background-color: transparent;" class="card text-center border-0"><a><img class="rounded-circle card-img-top scale-on-hover" src="assets/img/mouli.jpg" alt="Card Image" style="width: 120px;height: 120px;"></a>
                                         <div class="card-body">
@@ -251,7 +256,9 @@
                                 <div class="card-body bg-dark">
                                 <p class="h5 font-weight-light m-2">${val.title}</p>
                                 <p class="font-weight-light m-1">${val.description}</p>
-                                <iframe width="500" height="300" src="${val.video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div class="embed-responsive embed-responsive-4by3">
+                                    <iframe class="embed-responsive-item" src="${val.video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
                                 <div class="buttons mt-3"><a class="btn btn-secondary btn-sm" role="button" href="${val.quiz}" style="cursor:pointer;background-color: #f0174b;color: rgb(255,255,255);font-family: Baloo, cursive;border: none;">Attend Quiz</a></div>
                                 </div>
                             </div>

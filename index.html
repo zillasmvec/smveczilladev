@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>smveczilla | Department of Computer Science and Engineering</title>
+    <title>SMVEC ZILLA | Department of Computer Science and Engineering</title>
     <link rel="icon" type="image/png" sizes="3300x2550" href="assets/img/zillalogo-01.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo">
@@ -18,8 +18,19 @@
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/Team-Grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
+<style>
+    .main-img {
+  width: 40%;
+}
 
+@media only screen and (max-width: 600px) {
+  .main-img {
+    width: 90%;
+  }
+}
+</style>
 <body style="background-color: #191919;color: #ffffff;">    
     <nav class="navbar navbar-dark navbar-expand-md sticky-top navigation-clean" style="background-color: #111111;color: #191919;">
         <div class="container"><a class="navbar-brand" href="/" style="color: #f0174b;">smveczilla</a><button data-toggle="collapse" class="navbar-toggler text-white" data-target="#navcol-1" style="color: rgb(192,192,192);"><span class="sr-only" style="color: rgb(198,198,198);">Toggle navigation</span><span class="navbar-toggler-icon" style="color: rgb(184,184,184);"></span></button>
@@ -73,8 +84,9 @@
     <div class="d-sm-flex justify-content-sm-center align-items-sm-center" style="height: 100vh;font-family: Baloo, cursive;z-index: 10;">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 text-center"><img src="assets/img/zillalogo-01.png" style="width: 350px;">
-                    <h1 class="text-center" style="font-family: 'Open Sans', sans-serif;font-weight: bold;font-size: 25px;">Sri Manakula Vinayagar Engineering College</h1>
+                <div class="col-md-12 text-center"><img class="main-img" src="assets/img/zillalogo-01.png"/>
+                    <!-- <h1 class="text-center" style="font-family: 'Open Sans', sans-serif;font-weight: bold;font-size: 25px;">Sri Manakula Vinayagar Engineering College</h1> -->
+                    <h6 class="h5 font-weight-bold">moz://a</h6>
                     <p class="text-center text-muted" style="font-family: 'Open Sans', sans-serif; font-size: 0.9em;">A part of Mozilla clubs to connect through mozilla learning network</p>                    
                 </div>
                 <div class="downArrow bounce mt-4 text-white">
@@ -83,7 +95,7 @@
             </div>
         </div>
     </div>
-    <div id="course" style="height: 100vh" class="d-flex d-sm-flex justify-content-sm-center align-items-sm-center">
+    <div id="course" style="height: 100vh" class="d-none">
         <div  class="container">
             <div class="row">
                 <div class="col-md-6 text-center" style="padding: 10px;">
@@ -96,7 +108,7 @@
                         </div>
                     </div>
     </div>
-    <div id="about" style="height: 60vh">
+    <div id="about" style="height: 60vh" class="d-none">
         <div class="container">
             <div class="row d-flex d-sm-flex flex-column justify-content-sm-center align-items-sm-center">
                 <div class="col-md-6 text-center" style="padding: 10px;">                    
@@ -110,7 +122,7 @@
             </div>
         </div>
     </div>
-    <div class="text-center" id="powers">
+    <div class="text-center d-none" id="powers">
         <div class="container" style="padding: 20px;">
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-md-3 text-center"><img src="assets/img/img-01.png" style="height: 150px;">
@@ -135,7 +147,7 @@
             </div>
         </div>
     </div>
-    <div class="highlight-blue" style="margin-top: 30px;background-color: #0a0a0a;">
+    <div id="feedback" class="highlight-blue d-none" style="margin-top: 30px;background-color: #0a0a0a;">
         <div class="container">
             <div class="intro">
                 <h2 class="text-center">make us better</h2>
@@ -144,7 +156,7 @@
             <div class="buttons"><a class="btn btn-secondary" role="button" href="feedback.html" style="background-color: #f0174b;color: rgb(255,255,255);font-family: Baloo, cursive;">Speak</a></div>
         </div>
     </div>
-    <div class="d-flex align-items-center" style="height: 500px;padding: 20px;">
+    <div class="d-none" id="opensource" style="height: 500px;padding: 20px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center d-flex flex-column justify-content-center align-items-center" style="padding: 0;">
@@ -159,7 +171,7 @@
             </div>
         </div>
     </div>
-    <div class="text-center text-body" style="height: 500px;">
+    <div id="place" class="d-none text-center text-body" style="height: 500px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-white d-flex d-sm-flex flex-column align-items-center justify-content-sm-center align-items-sm-center" style="padding: 10px;">
@@ -170,7 +182,7 @@
             </div>
         </div>
     </div>
-    <div class="text-white footer-clean" id="contact" style="background-color: #0a0a0a;">
+    <div class="text-white footer-clean fadeInUp animated" id="contact" style="background-color: #0a0a0a;">
         <footer>
             <div class="container">
                 <div class="row justify-content-center">
@@ -185,7 +197,11 @@
                         <ul>
                             <li><a href="mailto:zillasmvec@smvec.ac.in">zillasmvec@smvec.ac.in</a></li>
                             <li></li> 
-                            <li></li>                           
+                            <li><a href="tel:+91 7092043702">Hemaprakash Raghu <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                width="16" height="16"
+                                viewBox="0 0 172 172"
+                                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M52.74219,148.09676c8.76022,-10.23317 14.08354,-20.64724 5.32332,-30.75121l-5.27163,-6.04687c-3.85036,-4.41887 -21.78426,-12.63642 14.78125,-44.39544c36.48798,-31.75901 42.17308,-12.86899 45.97176,-8.42428l5.29747,6.07272c8.76022,10.05228 19.79447,6.2536 31.16466,-1.00781l6.8738,-4.36719c11.31851,-7.28726 18.76081,-15.22056 10.02644,-25.32452l-4.78065,-5.42669c-3.23017,-4.47055 -13.79928,-16.92608 -33.85217,-19.94952c-24.05829,-3.64363 -51.63101,7.82993 -81.86538,34.13642c-30.26022,26.25481 -45.45493,51.96695 -45.19651,76.33534c0.23257,20.23378 11.08594,32.45673 15.03966,36.28125l4.78065,5.47837c8.73437,10.05228 17.64963,3.79868 26.40985,-6.43449z"></path></g></g></svg>
+                                </a></li>                           
                         </ul>
                     </div>
                     <div class="col-sm-4 col-md-3 item">
@@ -213,5 +229,33 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
+<script>
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
 
+        if(scroll >= 300) {            
+            $('#course').addClass('d-flex d-sm-flex justify-content-sm-center align-items-sm-center fadeInDown animated');            
+            $('#course').removeClass('d-none');
+        }
+        if(scroll >= 800) {
+            $('#about').addClass('fadeInDown animated');
+            $('#about').removeClass('d-none');
+        }
+        if(scroll >= 1200) {
+            $('#powers').addClass('fadeInDown animated');
+            $('#powers').removeClass('d-none');
+        }
+        if(scroll >= 1600) {
+            $('#feedback').addClass('fadeInDown animated');
+            $('#feedback').removeClass('d-none');
+        }
+        if(scroll >= 1900) {
+            $('#opensource').addClass('d-flex align-items-center fadeInDown animated');
+            $('#opensource').removeClass('d-none');
+            $('#place').addClass('fadeInDown animated');
+            $('#place').removeClass('d-none');
+        }        
+        
+    });
+</script>
 </html>
